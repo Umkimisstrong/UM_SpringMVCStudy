@@ -1,0 +1,11 @@
+/*
+	#10 DepartmentDAO.java
+	- 
+*/
+
+package com.test.mvc;
+
+public class DepartmentDAO
+{
+
+}

@@ -1,0 +1,12 @@
+/*
+ 	EmpListController.java
+ 	- 사용자 정의 컨트롤러 클래스
+ 	- 리스트 페이지 요청에 따른 액션 처리
+ 	  (일반 사원 전용)
+*/
+package com.test.mvc;
+
+public class EmpListController
+{
+	
+}

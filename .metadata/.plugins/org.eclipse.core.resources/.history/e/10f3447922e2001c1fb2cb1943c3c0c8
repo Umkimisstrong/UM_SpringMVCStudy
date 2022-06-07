@@ -1,0 +1,13 @@
+/*
+	RegListController.java
+	- 직원 전용 컨트롤러 클래스
+	- 부서 내용 출력 액션처리
+	- dao 구성
+	- setter 주입 
+*/
+package com.test.mvc;
+
+public class RegListController
+{
+
+}

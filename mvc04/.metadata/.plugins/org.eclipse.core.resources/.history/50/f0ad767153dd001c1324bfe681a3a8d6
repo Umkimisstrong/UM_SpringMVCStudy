@@ -1,0 +1,11 @@
+/*
+	#11 RegionDAO.java
+	
+*/
+
+package com.test.mvc;
+
+public class RegionDAO
+{
+
+}

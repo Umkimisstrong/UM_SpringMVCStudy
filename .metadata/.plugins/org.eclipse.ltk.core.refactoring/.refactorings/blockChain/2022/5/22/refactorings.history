@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.block.BlockTest001&apos; to &apos;Block&apos;&#x0D;&#x0A;- Original project: &apos;blockChain&apos;&#x0D;&#x0A;- Original element: &apos;com.block.BlockTest001&apos;&#x0D;&#x0A;- Renamed element: &apos;com.block.Block&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BlockTest001&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.block{BlockTest001.java[BlockTest001" matchStrategy="1" name="Block" qualified="false" references="true" similarDeclarations="false" stamp="1653357603216" textual="false" version="1.0"/>
+</session>
