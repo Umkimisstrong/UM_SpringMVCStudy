@@ -31,4 +31,7 @@
 <fullyQualifiedTypeName name="com.test.mvc.Department"/>
 <fullyQualifiedTypeName name="com.test.mvc.Region"/>
 <fullyQualifiedTypeName name="com.test.mvc.IRegionDAO"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 </qualifiedTypeNameHistroy>
