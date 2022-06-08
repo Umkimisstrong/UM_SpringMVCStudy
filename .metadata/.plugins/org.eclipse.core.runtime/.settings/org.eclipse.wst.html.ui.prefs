@@ -1,3 +1,6 @@
 eclipse.preferences.version=1
 newFileTemplateName=New HTML File (5)
+<<<<<<< HEAD
 org.eclipse.wst.sse.ui.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+=======
+>>>>>>> 8e201cad326225debe5d05f2705421fb671ac32c

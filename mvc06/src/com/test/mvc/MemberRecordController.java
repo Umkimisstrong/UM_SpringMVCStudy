@@ -5,7 +5,10 @@
 
 package com.test.mvc;
 
+import java.util.ArrayList;
+
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -23,6 +26,57 @@ public class MemberRecordController
 		
 	}
 	*/
+	
+	public String memberList(Model model)
+	{
+		String result = "";
+		
+		ArrayList<MemberDTO> list  = new ArrayList<MemberDTO>();
+		MemberDAO dao = new MemberDAO();
+		
+		try
+		{
+			dao.connection();
+			list = dao.lists();
+			
+			
+		} catch (Exception e)
+		{
+			System.out.println(e.toString());
+		}
+		finally
+		{
+			try
+			{
+				dao.cloas();
+			} catch (Exception e2)
+			{
+				System.out.println(e2.toString());
+			}
+		}
+		
+		model.addAttribute("list", list);
+		result = "/WEB-INF/view/MemberList.jsp";
+		
+		return result;
+	}
+	
+	public String memberInsertForm()
+	{
+		String reuslt = "";
+		return result;
+	}
+	
+	public String memberInsert(MemberDTO dto)
+	{
+		String result = "";
+		return result;
+	}
+	
+	
+	
+	
+	
 	
 	
 

@@ -20,3 +20,7 @@ org.eclipse.jdt.core.formatter.brace_position_for_lambda_body=next_line
 org.eclipse.jdt.core.formatter.brace_position_for_method_declaration=next_line
 org.eclipse.jdt.core.formatter.brace_position_for_switch=next_line
 org.eclipse.jdt.core.formatter.brace_position_for_type_declaration=next_line
+<<<<<<< HEAD
+=======
+org.eclipse.jdt.core.userLibrary.gson_lib=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/Downloads/00000_blockchain/gson-2.6.2.jar"/>\r\n</userlibrary>\r\n
+>>>>>>> 8e201cad326225debe5d05f2705421fb671ac32c

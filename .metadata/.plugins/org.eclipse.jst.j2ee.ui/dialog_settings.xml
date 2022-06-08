@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<item key="J2EE_EXPORT_OVERWRITE" value="false"/>
 	<item key="J2EE_EXPORT_SOURCE" value="false"/>
 	<list key="MRU_RUNTIME_STORE">
@@ -16,4 +17,9 @@
 	<list key="J2EE_EXPORT_JST_WEB">
 		<item value="C:\Users\adf77\Desktop\학원으로\mvc03.war"/>
 	</list>
+=======
+	<list key="MRU_RUNTIME_STORE">
+		<item value="Apache Tomcat v8.5"/>
+	</list>
+>>>>>>> 8e201cad326225debe5d05f2705421fb671ac32c
 </section>

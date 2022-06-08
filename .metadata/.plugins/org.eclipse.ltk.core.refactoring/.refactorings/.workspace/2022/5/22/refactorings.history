@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <session version="1.0">
 <refactoring comment="Delete resource &apos;mvc04&apos;" deleteContents="true" description="Delete resource &apos;mvc04&apos;" element1="/mvc04" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1653655292479"/>
+=======
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;mvc03&apos;" deleteContents="true" description="Delete resource &apos;mvc03&apos;" element1="/mvc03" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1653358419606"/>&#x0A;<refactoring comment="Delete resource &apos;mvc03&apos;" deleteContents="true" description="Delete resource &apos;mvc03&apos;" element1="/mvc03" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1653358546963"/>
+>>>>>>> 8e201cad326225debe5d05f2705421fb671ac32c
 </session>

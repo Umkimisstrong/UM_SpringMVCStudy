@@ -9,7 +9,11 @@
 <head>
 <meta charset="UTF-8">
 <title>Send.jsp</title>
+<<<<<<< HEAD
 <link rel="stylesheet" href="css/main.css" type="text/css">
+=======
+<link rel="stylesheet" type="text/css" href="css/main.css">
+>>>>>>> 8e201cad326225debe5d05f2705421fb671ac32c
 </head>
 <body>
 
@@ -21,7 +25,11 @@
 <div>
 	<form action="receive.do" method="post">
 		이름 <input type="text" name="userName" />
+<<<<<<< HEAD
 		<button type="submit">submit</button>	
+=======
+		<button type="submit">submit</button>
+>>>>>>> 8e201cad326225debe5d05f2705421fb671ac32c
 	</form>
 </div>
 

@@ -1,0 +1,11 @@
+/*
+	LogoutController.java
+	- 사용자 정의 컨트롤러 클래스
+	- 로그아웃 액션 처리
+*/
+package com.test.mvc;
+
+public class LogoutController
+{
+	
+}

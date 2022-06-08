@@ -2,6 +2,7 @@
 
 *
 {
+<<<<<<< HEAD
 	font-family: 맑은 고딕;
 	color: #343;
 	
@@ -10,22 +11,64 @@
 body, p, div, span, input, table, th, td, select
 {
 	font-size:  18px;
+=======
+	background-color: #8d6c2e;
+	font-family: 나눔고딕코딩;
+	color: #ababab;
+	font-weight: bold;
+}
+hr
+{
+	background-color: #ababab;
+	height: 10px;
+	border-bottom-color: #ababab;
+	border-right-color: #ababab;
+}
+body, p, div, span, input, table, th, td, select
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+.txt
+{
+	font-weight: bold;
+	background-color: #408080;
+	width:150px;
+}
+.txt:focus
+{
+	font-weight: bold;
+	background-color: #948716;
+	width:150px;
+>>>>>>> 8e201cad326225debe5d05f2705421fb671ac32c
 }
 
 .control
 {
+<<<<<<< HEAD
 	border: 1px solid gray;	
 	border-radius:3px;
+=======
+	border: 1px solid grey;
+	border-radius: 3px;
+	font-weight: bold;
+>>>>>>> 8e201cad326225debe5d05f2705421fb671ac32c
 }
 
 .table
 {
 	border-collapse: collapse;
+<<<<<<< HEAD
 	width: 100%; 
+=======
+	width: 250px;
+	font-weight: bold;
+>>>>>>> 8e201cad326225debe5d05f2705421fb671ac32c
 }
 
 .table th, .table td
 {
+<<<<<<< HEAD
 	border : 1px solid gray;
 	border-left: 0px;
 	border-right: 0px; 
@@ -36,10 +79,49 @@ body, p, div, span, input, table, th, td, select
 .btn
 {
 	font-weight: bold;	
+=======
+	border: 1px solid grey;
+	border-left: 1px;
+	border-right: 1px;
+	padding: 3px;
+	line-height: 150%;	
+	font-weight: bold;
+}
+.table td
+{
+	background-color: gray;
+	font-weight: bold;
+}
+.table th
+{
+	font-weight: bold;
+	background-color: #EEE;
+}
+.btn
+{
+	background-color: #8d6c2e;
+}
+
+.btn01
+{
+	font-weight: bold;
+	width: 80px;
+	color: blue;
+	background-color: gray;	
+	
+}
+.btn02
+{
+	font-weight: bold;
+	width: 80px;
+	color: red;
+	background-color: gray;
+>>>>>>> 8e201cad326225debe5d05f2705421fb671ac32c
 }
 
 .btn:hover
 {
+<<<<<<< HEAD
 	color: white;
 	background-color: #787; 
 }
@@ -56,3 +138,9 @@ body, p, div, span, input, table, th, td, select
 
 
 
+=======
+	font-weight: bold;
+	color: white;
+	background-color: tomato;
+}
+>>>>>>> 8e201cad326225debe5d05f2705421fb671ac32c
