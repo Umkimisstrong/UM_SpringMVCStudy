@@ -1,14 +1,12 @@
-/*
+/*==================================
 	MemberDTO.java
-*/
+===================================*/
 package com.test.mvc;
 
 public class MemberDTO
 {
-	// 주요 속성 구성(TBL_MEMBERLIST)
 	private String id, pw, name, tel, email;
-	
-	// getter / setter 구성
+
 	public String getId()
 	{
 		return id;
@@ -58,10 +56,6 @@ public class MemberDTO
 	{
 		this.email = email;
 	}
-	
-	
-	
-	
 	
 	
 }

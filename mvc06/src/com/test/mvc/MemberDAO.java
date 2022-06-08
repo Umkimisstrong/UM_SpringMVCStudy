@@ -1,3 +1,7 @@
+/*==================
+  	MemberDAO.java
+==================*/
+
 package com.test.mvc;
 
 import java.sql.Connection;
@@ -12,20 +16,21 @@ public class MemberDAO
 	
 	public void connection() throws ClassNotFoundException, SQLException
 	{
-		conn = DBConn.getConnection();		
+		conn = DBConn.getConnection();
 	}
 	
-	public void cloas() throws SQLException
+	public void close() throws SQLException
 	{
 		DBConn.close();
 	}
 	
+	
+	// 멤버 리스트 조회
 	public ArrayList<MemberDTO> lists() throws SQLException
 	{
 		ArrayList<MemberDTO> result = new ArrayList<MemberDTO>();
 		
 		String sql = "SELECT ID, NAME, TEL, EMAIL FROM TBL_MEMBERLIST";
-		
 		PreparedStatement pstmt = conn.prepareStatement(sql);
 		ResultSet rs = pstmt.executeQuery();
 		MemberDTO dto = null;
@@ -43,17 +48,21 @@ public class MemberDAO
 		}
 		rs.close();
 		pstmt.close();
+		
 		return result;
 	}
 	
+	// 멤버 데이터 입력
 	public int insertQuery(MemberDTO dto) throws SQLException
 	{
 		int result = 0;
-		
+				
 		String sql = "INSERT INTO TBL_MEMBERLIST(ID, PW, NAME, TEL , EMAIL)"
-				+ " VALUES(?, CRYPTPACK.ENCRYPT(?, ?), ?, ?, ?";
+				+ " VALUES(?, CRYPTPACK.ENCRYPT(?, ?)"
+				+ ", ?, ?, ?)";
 		
 		PreparedStatement pstmt = conn.prepareStatement(sql);
+		
 		pstmt.setString(1, dto.getId());
 		pstmt.setString(2, dto.getPw());
 		pstmt.setString(3, dto.getPw());
@@ -62,11 +71,9 @@ public class MemberDAO
 		pstmt.setString(6, dto.getEmail());
 		
 		result = pstmt.executeUpdate();
-		
 		pstmt.close();
-		return result;
-		
-		
+				
+		return result;		
 	}
 	
 	
