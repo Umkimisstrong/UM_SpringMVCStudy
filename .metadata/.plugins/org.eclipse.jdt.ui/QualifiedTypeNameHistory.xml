@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.sound.midi.ControllerEventListener"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+<fullyQualifiedTypeName name="javax.xml.ws.Dispatch"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.DispatcherServlet"/>
+<fullyQualifiedTypeName name="com.test.mvc.IMemberDAO"/>
+<fullyQualifiedTypeName name="com.test.mvc.MemberDTO"/>
+<fullyQualifiedTypeName name="com.test.mvc.IEmlpoyeeDAO"/>
+<fullyQualifiedTypeName name="com.test.mvc.IPosition"/>
+<fullyQualifiedTypeName name="com.test.mvc.Region"/>
+<fullyQualifiedTypeName name="com.test.mvc.Position"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.test.mvc.Employee"/>
+<fullyQualifiedTypeName name="com.test.mvc.IRegionDAO"/>
+<fullyQualifiedTypeName name="com.sun.media.sound.InvalidDataException"/>
+<fullyQualifiedTypeName name="com.test.mvc.Department"/>
+<fullyQualifiedTypeName name="com.test.mvc.IDepartmentDAO"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+</qualifiedTypeNameHistroy>
