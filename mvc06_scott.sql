@@ -31,7 +31,8 @@ COMMIT;
 --==>> Ä¿¹Ô ¿Ï·á.
 
 
-
+SELECT ID, NAME, TEL, EMAIL FROM TBL_MEMBERLIST
+;
 
 
 
