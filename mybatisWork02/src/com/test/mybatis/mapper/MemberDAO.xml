@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<!--   	PDF 파일에서 따온 XML 구문에서 select 엘리먼트 삭제, namespace 내용 수정  
+	<mapper namespace="org.mybatis.example.BlogMapper">
+		 <select id="selectBlog" resultType="Blog">
+	 			select * from Blog where id = #{id}
+ 		</select>
+	</mapper>
+-->
+	
+<mapper namespace="com.test.mybatis.IMemberDAO">
+	
+	<!-- select 는 쿼리선택자의 개념 id는 메소드 이름의 개념으로 해석 -->
+	<select id="list" resultType="com.test.mybatis.MemberDTO">
+		SELECT MID, NAME, TELEPHONE
+		FROM TBL_MEMBERLIST
+		ORDER BY MID
+	</select>
+	
+	<select id="count" resultType="java.lang.Integer">
+		SELECT COUNT(*) AS COUNT
+		FROM TBL_MEMBERLIST
+	</select>
+	
+	<insert id="add">
+		INSERT INTO TBL_MEMBERLIST(MID, NAME, TELEPHONE)
+		VALUES(MEMBERLISTSEQ.NEXTVAL, #{name}, #{telephone})
+	</insert>
+	
+	<delete id="remove">
+		DELETE
+		FROM TBL_MEMBERLIST
+		WHERE MID = #{mid}
+	</delete>
+</mapper>
