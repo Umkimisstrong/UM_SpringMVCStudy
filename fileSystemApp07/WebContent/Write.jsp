@@ -27,7 +27,7 @@
 	<h3>파일은 항상 body에서 form 에서 post 로 전송한다</h3>
 	
 	<!-- enctype="multipart/form-data" : 파일을 물리적으로 업로드하기위한 필수 속성 -->
-	<form action="Test_ok.jsp" method="post" enctype="multipart/form-data">
+	<form action="Write_ok.jsp" method="post" enctype="multipart/form-data">
 		작성자 : <input type="text" name="userName" /> <br />
 		제목 : <input type="text" name="subject" /> <br />
 		파일 : <input type="file" name="uploadFile" /> <br />
